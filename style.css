@@ -434,15 +434,15 @@ section {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2.25rem;
   list-style: none;
 }
 
 .header-nav a {
   font-family: 'Lato', sans-serif;
-  font-size: 11px;
+  font-size: 13.5px;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--teak);
   text-decoration: none;
@@ -487,15 +487,15 @@ section {
   align-items: center;
   gap: 0;
   font-family: 'Lato', sans-serif;
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
 }
 
 .lang-switch-divider {
   display: inline-block;
   width: 1px;
-  height: 12px;
+  height: 14px;
   background: var(--gold);
   margin-inline: 8px;
 }
@@ -508,9 +508,9 @@ section {
   color: var(--wood);
   opacity: 0.6;
   font-family: 'Lato', sans-serif;
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   transition: color var(--transition-link), opacity var(--transition-link);
   line-height: 1;
@@ -689,28 +689,12 @@ section {
   height: 100%;
   object-fit: cover;
   display: block;
-  transform: scale(1);
-  transition: transform 8s linear;
-  will-change: transform;
-}
-
-.slider-slide.is-active img {
-  transform: scale(1.07);
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-  .slider-slide img,
-  .slider-slide.is-active img {
-    transform: none;
-    transition: none;
-  }
 }
 
 /* Slide transitions */
 .slider-slide {
   transform: translateX(100%);
-  transition: transform 1.1s var(--ease-slide);
+  transition: transform 0.65s cubic-bezier(0.25, 1, 0.5, 1);
   z-index: 1;
 }
 
@@ -722,7 +706,7 @@ section {
 .slider-slide.is-leaving {
   transform: translateX(-100%);
   z-index: 1;
-  transition: transform 1.1s var(--ease-slide);
+  transition: transform 0.65s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .slider-slide.is-entering {
@@ -1934,24 +1918,37 @@ section {
     display: none;
   }
 
+  #headerPesanBtn {
+    display: none;
+  }
+
   .hamburger {
     display: flex;
   }
 
+  .header-inner {
+    padding-inline: clamp(1rem, 3vw, 1.5rem);
+    gap: 0.75rem;
+  }
+
+  .header-right {
+    gap: 0.75rem;
+  }
+
   .header-logo-icon {
-    height: 42px;
+    height: 38px;
   }
 
   .site-header.is-scrolled .header-logo-icon {
-    height: 36px;
+    height: 34px;
   }
 
   .header-logo-text {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .site-header.is-scrolled .header-logo-text {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 
   .btn-back-top {
@@ -2046,12 +2043,28 @@ section {
     grid-template-columns: 1fr;
   }
 
+  .villa-detail-section {
+    padding-block: 1.5rem 3rem;
+  }
+
   .villa-detail-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .villa-detail-photos {
     position: static;
+    width: 100%;
+  }
+
+  .villa-main-photo-wrap {
+    aspect-ratio: 16 / 10;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  .villa-thumbs {
+    gap: 6px;
   }
 
   .other-villas-grid {

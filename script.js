@@ -2,9 +2,9 @@
 
 const CONFIG = {
   whatsappNumber: '6281234567890', // ← Replace with your real WhatsApp number (no + or spaces)
-  instagramUrl:   'https://www.instagram.com/joglomasayu/', // ← Replace with real Instagram URL
-  mapsUrl:        'https://maps.google.com/?q=Villa+Joglo+Yogyakarta',
-  mapsEmbedUrl:   'https://maps.google.com/maps?q=Yogyakarta&t=&z=13&ie=UTF8&iwloc=&output=embed',
+  instagramUrl: 'https://www.instagram.com/joglomasayu/', // ← Replace with real Instagram URL
+  mapsUrl: 'https://maps.google.com/?q=Villa+Joglo+Yogyakarta',
+  mapsEmbedUrl: 'https://maps.google.com/maps?q=Yogyakarta&t=&z=13&ie=UTF8&iwloc=&output=embed',
 
   heroImages: [
     'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=900&q=80', // hero-1
@@ -20,7 +20,7 @@ const CONFIG = {
     { src: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80', alt: 'Ruang tamu terbuka', span: '' },
     { src: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80', alt: 'Dapur joglo tradisional', span: '' },
     { src: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&q=80', alt: 'Teras villa dengan pemandangan', span: '' },
-    { src: 'https://images.unsplash.com/photo-1614289371518-722f2615943d?w=800&q=80', alt: 'Detail ukiran kayu jati', span: '' },
+    { src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80', alt: 'Detail interior kayu jati joglo', span: '' },
     { src: 'https://images.unsplash.com/photo-1578898887932-dce23a595ad4?w=800&q=80', alt: 'Kamar mandi outdoor', span: '' },
     { src: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80', alt: 'Sarapan pagi di joglo', span: 'wide' },
     // Add images/gallery-1.jpg etc. here when real photos are ready
@@ -34,184 +34,184 @@ const CONFIG = {
 const TRANSLATIONS = {
   id: {
     // Meta
-    'meta.title.home':       'Joglo Masayu — Villa Joglo Premium di Jawa',
-    'meta.desc.home':        'Joglo Masayu menawarkan pengalaman menginap premium di villa joglo kayu jati autentik. Rasakan ketenangan dan keindahan arsitektur Jawa yang sesungguhnya.',
-    'meta.title.villa':      'Villa — Joglo Masayu',
-    'meta.desc.villa':       'Detail villa joglo premium di Joglo Masayu.',
+    'meta.title.home': 'Joglo Masayu — Villa Joglo Premium di Jawa',
+    'meta.desc.home': 'Joglo Masayu menawarkan pengalaman menginap premium di villa joglo kayu jati autentik. Rasakan ketenangan dan keindahan arsitektur Jawa yang sesungguhnya.',
+    'meta.title.villa': 'Villa — Joglo Masayu',
+    'meta.desc.villa': 'Detail villa joglo premium di Joglo Masayu.',
 
     // Header
-    'nav.tentang':           'Tentang',
-    'nav.villa':             'Villa',
-    'nav.galeri':            'Galeri',
-    'nav.kontak':            'Kontak',
-    'nav.pesan':             'Pesan Sekarang',
-    'nav.backToTop':         'Kembali',
-    'nav.backToTop.aria':    'Kembali ke atas',
+    'nav.tentang': 'Tentang',
+    'nav.villa': 'Villa',
+    'nav.galeri': 'Galeri',
+    'nav.kontak': 'Kontak',
+    'nav.pesan': 'Pesan Sekarang',
+    'nav.backToTop': 'Kembali',
+    'nav.backToTop.aria': 'Kembali ke atas',
 
     // Hero
-    'hero.eyebrow':          'Villa joglo premium',
-    'hero.heading':          'Pulang ke rumah kayu,<br>dalam <em>tenang.</em>',
-    'hero.tagline':          'Harmoni arsitektur Jawa, ketenangan alam, dan keramahtamahan tulus dalam satu tempat.',
-    'hero.cta1':             'Lihat villa',
-    'hero.cta2':             'Hubungi kami',
+    'hero.eyebrow': 'Villa joglo premium',
+    'hero.heading': 'Pulang ke rumah kayu,<br>dalam <em>tenang.</em>',
+    'hero.tagline': 'Harmoni arsitektur Jawa, ketenangan alam, dan keramahtamahan tulus dalam satu tempat.',
+    'hero.cta1': 'Lihat villa',
+    'hero.cta2': 'Hubungi kami',
 
     // Tentang
-    'tentang.eyebrow':       'Tentang kami',
-    'tentang.heading':       'Rumah kayu yang<br>terasa <em>pulang</em>',
-    'tentang.p1':            'Joglo Masayu lahir dari kecintaan mendalam pada warisan arsitektur Jawa. Setiap tiang dan ukiran dipilih dengan teliti, membawa jiwa rumah joglo asli ke dalam pengalaman menginap yang nyaman dan bermakna.',
-    'tentang.p2':            'Di sini, waktu melambat. Langit terbuka, udara segar, dan ketenangan menjadi teman sejati setiap tamu. Kami percaya bahwa menginap terbaik adalah yang membuat hati benar-benar pulang.',
-    'tentang.stat1num':      '3',
-    'tentang.stat1label':    'Tipe villa',
-    'tentang.stat2num':      '100%',
-    'tentang.stat2label':    'Kayu jati',
-    'tentang.stat3num':      '24 jam',
-    'tentang.stat3label':    'Layanan',
+    'tentang.eyebrow': 'Tentang kami',
+    'tentang.heading': 'Rumah kayu yang<br>terasa <em>pulang</em>',
+    'tentang.p1': 'Joglo Masayu lahir dari kecintaan mendalam pada warisan arsitektur Jawa. Setiap tiang dan ukiran dipilih dengan teliti, membawa jiwa rumah joglo asli ke dalam pengalaman menginap yang nyaman dan bermakna.',
+    'tentang.p2': 'Di sini, waktu melambat. Langit terbuka, udara segar, dan ketenangan menjadi teman sejati setiap tamu. Kami percaya bahwa menginap terbaik adalah yang membuat hati benar-benar pulang.',
+    'tentang.stat1num': '3',
+    'tentang.stat1label': 'Tipe villa',
+    'tentang.stat2num': '100%',
+    'tentang.stat2label': 'Kayu jati',
+    'tentang.stat3num': '24 jam',
+    'tentang.stat3label': 'Layanan',
 
     // Villa list
-    'villa.eyebrow':         'Villa kami',
-    'villa.heading':         'Pilih joglo yang paling cocok',
-    'villa.cta':             'Tanya ketersediaan',
-    'villa.from':            'mulai dari',
+    'villa.eyebrow': 'Villa kami',
+    'villa.heading': 'Pilih joglo yang paling cocok',
+    'villa.cta': 'Tanya ketersediaan',
+    'villa.from': 'mulai dari',
 
     // Gallery
-    'galeri.eyebrow':        'Galeri foto',
-    'galeri.heading':        'Sudut-sudut Joglo Masayu',
+    'galeri.eyebrow': 'Galeri foto',
+    'galeri.heading': 'Sudut-sudut Joglo Masayu',
 
     // Testimoni
-    'testimoni.quote':       '"Menginap di Joglo Masayu terasa seperti pulang ke rumah leluhur — tenang, hangat, dan penuh cerita. Kami selalu ingin kembali."',
-    'testimoni.name':        'Arinta & Baskara',
-    'testimoni.origin':      'Jakarta, 2024',
+    'testimoni.quote': '"Menginap di Joglo Masayu terasa seperti pulang ke rumah leluhur — tenang, hangat, dan penuh cerita. Kami selalu ingin kembali."',
+    'testimoni.name': 'Arinta & Baskara',
+    'testimoni.origin': 'Jakarta, 2024',
 
     // Kontak
-    'kontak.eyebrow':        'Hubungi kami',
-    'kontak.heading':        'Siap menginap bersama kami?',
-    'kontak.sub':            'Kami dengan senang hati membantu Anda menemukan villa yang tepat dan menjawab setiap pertanyaan.',
-    'kontak.whatsapp':       'Chat WhatsApp',
-    'kontak.instagram':      'Instagram',
-    'kontak.cardTitle':      'Informasi & Lokasi',
-    'kontak.cardDesc':       'Kunjungi atau hubungi tim kami untuk reservasi dan panduan rute menuju villa.',
-    'kontak.alamatLabel':    'Alamat Villa',
-    'kontak.alamatVal':      'Jl. Kaliurang Km 14, Sukoharjo, Ngaglik, Sleman, D.I. Yogyakarta',
-    'kontak.jamLabel':       'Waktu Operasional',
-    'kontak.jamVal':         'Check-in: 14.00 WIB · Check-out: 12.00 WIB',
-    'kontak.mapsLink':       'Buka Maps',
+    'kontak.eyebrow': 'Hubungi kami',
+    'kontak.heading': 'Siap menginap bersama kami?',
+    'kontak.sub': 'Kami dengan senang hati membantu Anda menemukan villa yang tepat dan menjawab setiap pertanyaan.',
+    'kontak.whatsapp': 'Chat WhatsApp',
+    'kontak.instagram': 'Instagram',
+    'kontak.cardTitle': 'Informasi & Lokasi',
+    'kontak.cardDesc': 'Kunjungi atau hubungi tim kami untuk reservasi dan panduan rute menuju villa.',
+    'kontak.alamatLabel': 'Alamat Villa',
+    'kontak.alamatVal': 'Jl. Kaliurang Km 14, Sukoharjo, Ngaglik, Sleman, D.I. Yogyakarta',
+    'kontak.jamLabel': 'Waktu Operasional',
+    'kontak.jamVal': 'Check-in: 14.00 WIB · Check-out: 12.00 WIB',
+    'kontak.mapsLink': 'Buka Maps',
 
     // Footer
-    'footer.desc':           'Villa joglo premium dengan arsitektur Jawa autentik di lingkungan yang tenang dan asri.',
-    'footer.menu':           'Menu',
-    'footer.contact':        'Kontak',
-    'footer.copyright':      '© 2024 Joglo Masayu. Semua hak dilindungi.',
+    'footer.desc': 'Villa joglo premium dengan arsitektur Jawa autentik di lingkungan yang tenang dan asri.',
+    'footer.menu': 'Menu',
+    'footer.contact': 'Kontak',
+    'footer.copyright': '© 2024 Joglo Masayu. Semua hak dilindungi.',
 
     // Villa detail
-    'villa.back':            'Kembali',
-    'villa.facilities':      'Fasilitas villa',
-    'villa.weekday':         'Senin – Kamis',
-    'villa.weekend':         'Jum\'at – Minggu',
-    'villa.extrabed':        'Extra bed',
-    'villa.capacity':        'Kapasitas',
-    'villa.capacity.std':    'tamu standar',
-    'villa.capacity.max':    'maks. dengan extra bed',
-    'villa.price.note':      'Harga dapat berubah pada periode tertentu (misal: saat high season).',
-    'villa.book':            'Pesan sekarang',
-    'villa.ask':             'Tanya via WhatsApp',
-    'villa.other':           'Villa lainnya',
-    'villa.from.price':      'Mulai dari',
-    'villa.notfound.h':      'Villa tidak ditemukan',
-    'villa.notfound.p':      'Maaf, villa yang Anda cari tidak tersedia. Silakan kembali ke daftar villa kami.',
-    'villa.notfound.btn':    'Kembali ke villa',
-    'villa.wa.book':         'Halo, saya ingin memesan {villa}. Mohon informasi ketersediaan dan detailnya. Terima kasih.',
-    'villa.wa.ask':          'Halo, saya ingin menanyakan informasi tentang {villa}. Terima kasih.',
+    'villa.back': 'Kembali',
+    'villa.facilities': 'Fasilitas villa',
+    'villa.weekday': 'Senin – Kamis',
+    'villa.weekend': 'Jum\'at – Minggu',
+    'villa.extrabed': 'Extra bed',
+    'villa.capacity': 'Kapasitas',
+    'villa.capacity.std': 'tamu standar',
+    'villa.capacity.max': 'maks. dengan extra bed',
+    'villa.price.note': 'Harga dapat berubah pada periode tertentu (misal: saat high season).',
+    'villa.book': 'Pesan sekarang',
+    'villa.ask': 'Tanya via WhatsApp',
+    'villa.other': 'Villa lainnya',
+    'villa.from.price': 'Mulai dari',
+    'villa.notfound.h': 'Villa tidak ditemukan',
+    'villa.notfound.p': 'Maaf, villa yang Anda cari tidak tersedia. Silakan kembali ke daftar villa kami.',
+    'villa.notfound.btn': 'Kembali ke villa',
+    'villa.wa.book': 'Halo, saya ingin memesan {villa}. Mohon informasi ketersediaan dan detailnya. Terima kasih.',
+    'villa.wa.ask': 'Halo, saya ingin menanyakan informasi tentang {villa}. Terima kasih.',
   },
 
   en: {
     // Meta
-    'meta.title.home':       'Joglo Masayu — Premium Joglo Villas in Java',
-    'meta.desc.home':        'Joglo Masayu offers a premium stay in authentic teak joglo villas. Experience the calm and beauty of true Javanese architecture.',
-    'meta.title.villa':      'Villa — Joglo Masayu',
-    'meta.desc.villa':       'Premium joglo villa details at Joglo Masayu.',
+    'meta.title.home': 'Joglo Masayu — Premium Joglo Villas in Java',
+    'meta.desc.home': 'Joglo Masayu offers a premium stay in authentic teak joglo villas. Experience the calm and beauty of true Javanese architecture.',
+    'meta.title.villa': 'Villa — Joglo Masayu',
+    'meta.desc.villa': 'Premium joglo villa details at Joglo Masayu.',
 
     // Header
-    'nav.tentang':           'About',
-    'nav.villa':             'Villas',
-    'nav.galeri':            'Gallery',
-    'nav.kontak':            'Contact',
-    'nav.pesan':             'Book Now',
-    'nav.backToTop':         'Back',
-    'nav.backToTop.aria':    'Back to top',
+    'nav.tentang': 'About',
+    'nav.villa': 'Villas',
+    'nav.galeri': 'Gallery',
+    'nav.kontak': 'Contact',
+    'nav.pesan': 'Book Now',
+    'nav.backToTop': 'Back',
+    'nav.backToTop.aria': 'Back to top',
 
     // Hero
-    'hero.eyebrow':          'Premium joglo villa',
-    'hero.heading':          'Come home to teak wood,<br>find <em>stillness.</em>',
-    'hero.tagline':          'Javanese architecture, the calm of nature, and sincere hospitality — all in one place.',
-    'hero.cta1':             'See villas',
-    'hero.cta2':             'Get in touch',
+    'hero.eyebrow': 'Premium joglo villa',
+    'hero.heading': 'Come home to teak wood,<br>find <em>stillness.</em>',
+    'hero.tagline': 'Javanese architecture, the calm of nature, and sincere hospitality — all in one place.',
+    'hero.cta1': 'See villas',
+    'hero.cta2': 'Get in touch',
 
     // Tentang
-    'tentang.eyebrow':       'About us',
-    'tentang.heading':       'A wooden home that<br>feels like <em>returning</em>',
-    'tentang.p1':            'Joglo Masayu was born from a deep love for Javanese architectural heritage. Every pillar and carving is chosen with care, bringing the soul of a true joglo home into a comfortable and meaningful stay.',
-    'tentang.p2':            'Here, time slows down. Open skies, fresh air, and quiet become your companions. We believe the finest stay is one that truly brings you home.',
-    'tentang.stat1num':      '3',
-    'tentang.stat1label':    'Villa types',
-    'tentang.stat2num':      '100%',
-    'tentang.stat2label':    'Teak wood',
-    'tentang.stat3num':      '24 hrs',
-    'tentang.stat3label':    'Service',
+    'tentang.eyebrow': 'About us',
+    'tentang.heading': 'A wooden home that<br>feels like <em>returning</em>',
+    'tentang.p1': 'Joglo Masayu was born from a deep love for Javanese architectural heritage. Every pillar and carving is chosen with care, bringing the soul of a true joglo home into a comfortable and meaningful stay.',
+    'tentang.p2': 'Here, time slows down. Open skies, fresh air, and quiet become your companions. We believe the finest stay is one that truly brings you home.',
+    'tentang.stat1num': '3',
+    'tentang.stat1label': 'Villa types',
+    'tentang.stat2num': '100%',
+    'tentang.stat2label': 'Teak wood',
+    'tentang.stat3num': '24 hrs',
+    'tentang.stat3label': 'Service',
 
     // Villa list
-    'villa.eyebrow':         'Our villas',
-    'villa.heading':         'Find your perfect joglo',
-    'villa.cta':             'Check availability',
-    'villa.from':            'from',
+    'villa.eyebrow': 'Our villas',
+    'villa.heading': 'Find your perfect joglo',
+    'villa.cta': 'Check availability',
+    'villa.from': 'from',
 
     // Gallery
-    'galeri.eyebrow':        'Photo gallery',
-    'galeri.heading':        'Corners of Joglo Masayu',
+    'galeri.eyebrow': 'Photo gallery',
+    'galeri.heading': 'Corners of Joglo Masayu',
 
     // Testimoni
-    'testimoni.quote':       '"Staying at Joglo Masayu felt like coming home to our ancestors\' house — peaceful, warm, and full of stories. We always want to return."',
-    'testimoni.name':        'Arinta & Baskara',
-    'testimoni.origin':      'Jakarta, 2024',
+    'testimoni.quote': '"Staying at Joglo Masayu felt like coming home to our ancestors\' house — peaceful, warm, and full of stories. We always want to return."',
+    'testimoni.name': 'Arinta & Baskara',
+    'testimoni.origin': 'Jakarta, 2024',
 
     // Kontak
-    'kontak.eyebrow':        'Get in touch',
-    'kontak.heading':        'Ready to stay with us?',
-    'kontak.sub':            'We\'d love to help you find the perfect villa and answer any questions you have.',
-    'kontak.whatsapp':       'Chat on WhatsApp',
-    'kontak.instagram':      'Instagram',
-    'kontak.cardTitle':      'Information & Location',
-    'kontak.cardDesc':       'Visit or contact our team for reservations and directions to the villa.',
-    'kontak.alamatLabel':    'Villa Address',
-    'kontak.alamatVal':      'Jl. Kaliurang Km 14, Sukoharjo, Ngaglik, Sleman, D.I. Yogyakarta',
-    'kontak.jamLabel':       'Operating Hours',
-    'kontak.jamVal':         'Check-in: 2:00 PM · Check-out: 12:00 PM',
-    'kontak.mapsLink':       'Open Maps',
+    'kontak.eyebrow': 'Get in touch',
+    'kontak.heading': 'Ready to stay with us?',
+    'kontak.sub': 'We\'d love to help you find the perfect villa and answer any questions you have.',
+    'kontak.whatsapp': 'Chat on WhatsApp',
+    'kontak.instagram': 'Instagram',
+    'kontak.cardTitle': 'Information & Location',
+    'kontak.cardDesc': 'Visit or contact our team for reservations and directions to the villa.',
+    'kontak.alamatLabel': 'Villa Address',
+    'kontak.alamatVal': 'Jl. Kaliurang Km 14, Sukoharjo, Ngaglik, Sleman, D.I. Yogyakarta',
+    'kontak.jamLabel': 'Operating Hours',
+    'kontak.jamVal': 'Check-in: 2:00 PM · Check-out: 12:00 PM',
+    'kontak.mapsLink': 'Open Maps',
 
     // Footer
-    'footer.desc':           'Premium joglo villas with authentic Javanese architecture in a tranquil, natural setting.',
-    'footer.menu':           'Menu',
-    'footer.contact':        'Contact',
-    'footer.copyright':      '© 2024 Joglo Masayu. All rights reserved.',
+    'footer.desc': 'Premium joglo villas with authentic Javanese architecture in a tranquil, natural setting.',
+    'footer.menu': 'Menu',
+    'footer.contact': 'Contact',
+    'footer.copyright': '© 2024 Joglo Masayu. All rights reserved.',
 
     // Villa detail
-    'villa.back':            'Back',
-    'villa.facilities':      'Villa facilities',
-    'villa.weekday':         'Mon – Thu',
-    'villa.weekend':         'Fri – Sun',
-    'villa.extrabed':        'Extra bed',
-    'villa.capacity':        'Capacity',
-    'villa.capacity.std':    'standard guests',
-    'villa.capacity.max':    'max. with extra bed',
-    'villa.price.note':      'Rates may vary during certain periods (e.g. peak season).',
-    'villa.book':            'Book now',
-    'villa.ask':             'Ask via WhatsApp',
-    'villa.other':           'Other villas',
-    'villa.from.price':      'From',
-    'villa.notfound.h':      'Villa not found',
-    'villa.notfound.p':      'Sorry, the villa you\'re looking for isn\'t available. Please return to our villa list.',
-    'villa.notfound.btn':    'Back to villas',
-    'villa.wa.book':         'Hello, I\'d like to book {villa}. Could you please share availability and details? Thank you.',
-    'villa.wa.ask':          'Hello, I\'d like to learn more about {villa}. Thank you.',
+    'villa.back': 'Back',
+    'villa.facilities': 'Villa facilities',
+    'villa.weekday': 'Mon – Thu',
+    'villa.weekend': 'Fri – Sun',
+    'villa.extrabed': 'Extra bed',
+    'villa.capacity': 'Capacity',
+    'villa.capacity.std': 'standard guests',
+    'villa.capacity.max': 'max. with extra bed',
+    'villa.price.note': 'Rates may vary during certain periods (e.g. peak season).',
+    'villa.book': 'Book now',
+    'villa.ask': 'Ask via WhatsApp',
+    'villa.other': 'Other villas',
+    'villa.from.price': 'From',
+    'villa.notfound.h': 'Villa not found',
+    'villa.notfound.p': 'Sorry, the villa you\'re looking for isn\'t available. Please return to our villa list.',
+    'villa.notfound.btn': 'Back to villas',
+    'villa.wa.book': 'Hello, I\'d like to book {villa}. Could you please share availability and details? Thank you.',
+    'villa.wa.ask': 'Hello, I\'d like to learn more about {villa}. Thank you.',
   },
 };
 
@@ -221,11 +221,11 @@ const TRANSLATIONS = {
 
 const VILLAS = [
   {
-    id:    'joglo-wulung',
-    slug:  'joglo-wulung',
-    num:   '01',
-    name:  'Joglo Wulung',
-    code:  'Villa 01',
+    id: 'joglo-wulung',
+    slug: 'joglo-wulung',
+    num: '01',
+    name: 'Joglo Wulung',
+    code: 'Villa 01',
     photos: [
       'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80',
       'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80',
@@ -256,14 +256,14 @@ const VILLAS = [
   },
 
   {
-    id:    'joglo-saren',
-    slug:  'joglo-saren',
-    num:   '02',
-    name:  'Joglo Saren',
-    code:  'Villa 02',
+    id: 'joglo-saren',
+    slug: 'joglo-saren',
+    num: '02',
+    name: 'Joglo Saren',
+    code: 'Villa 02',
     photos: [
       'https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1200&q=80',
-      'https://images.unsplash.com/photo-1614289371518-722f2615943d?w=1200&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
       'https://images.unsplash.com/photo-1578898887932-dce23a595ad4?w=1200&q=80',
       'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&q=80',
       // Replace with: images/villa-saren-1.jpg, etc.
@@ -291,11 +291,11 @@ const VILLAS = [
   },
 
   {
-    id:    'joglo-agung',
-    slug:  'joglo-agung',
-    num:   '03',
-    name:  'Joglo Agung',
-    code:  'Villa 03',
+    id: 'joglo-agung',
+    slug: 'joglo-agung',
+    num: '03',
+    name: 'Joglo Agung',
+    code: 'Villa 03',
     photos: [
       'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=1200&q=80',
       'https://images.unsplash.com/photo-1551882547-ff40c4fe1fa7?w=1200&q=80',
@@ -438,10 +438,10 @@ function injectHeader() {
   const navBase = isVillaPage ? 'index.html' : '';
 
   const navLinks = [
-    { key: 'nav.tentang', href: `${navBase}#tentang`,  id: 'nav-tentang' },
-    { key: 'nav.villa',   href: `${navBase}#villa`,    id: 'nav-villa' },
-    { key: 'nav.galeri',  href: `${navBase}#galeri`,   id: 'nav-galeri' },
-    { key: 'nav.kontak',  href: `${navBase}#kontak`,   id: 'nav-kontak' },
+    { key: 'nav.tentang', href: `${navBase}#tentang`, id: 'nav-tentang' },
+    { key: 'nav.villa', href: `${navBase}#villa`, id: 'nav-villa' },
+    { key: 'nav.galeri', href: `${navBase}#galeri`, id: 'nav-galeri' },
+    { key: 'nav.kontak', href: `${navBase}#kontak`, id: 'nav-kontak' },
   ];
 
   const navHTML = navLinks.map(l =>
@@ -482,8 +482,8 @@ function injectHeader() {
     <nav class="mobile-nav" id="mobileNav" aria-label="Navigasi mobile" aria-hidden="true">
       <ul class="mobile-nav-links">
         ${navLinks.map(l =>
-          `<li><a href="${l.href}" data-i18n="${l.key}" class="mobile-nav-link">${t(l.key)}</a></li>`
-        ).join('')}
+    `<li><a href="${l.href}" data-i18n="${l.key}" class="mobile-nav-link">${t(l.key)}</a></li>`
+  ).join('')}
       </ul>
       <a href="https://wa.me/${CONFIG.whatsappNumber}" id="mobilePesanBtn" class="btn btn-ghost" target="_blank" rel="noopener" data-i18n="nav.pesan">${t('nav.pesan')}</a>
     </nav>
@@ -682,11 +682,11 @@ function observeNewReveal(container) {
 
 /* ─── Lightbox ────────────────────────────────────────────── */
 let lightboxImages = [];
-let lightboxIndex  = 0;
+let lightboxIndex = 0;
 
 function openLightbox(images, startIndex) {
   lightboxImages = images;
-  lightboxIndex  = startIndex;
+  lightboxIndex = startIndex;
   const lb = document.getElementById('lightbox');
   const img = document.getElementById('lightboxImg');
   if (!lb || !img) return;
@@ -707,7 +707,7 @@ function closeLightbox() {
   lb.hidden = true;
   document.body.style.overflow = '';
   lightboxImages = [];
-  lightboxIndex  = 0;
+  lightboxIndex = 0;
 }
 
 function lightboxNav(dir) {
@@ -721,23 +721,23 @@ function lightboxNav(dir) {
 }
 
 function initLightbox() {
-  const lb      = document.getElementById('lightbox');
+  const lb = document.getElementById('lightbox');
   const overlay = lb && lb.querySelector('.lightbox-overlay');
   const closeBtn = document.getElementById('lightboxClose');
-  const prevBtn  = document.getElementById('lightboxPrev');
-  const nextBtn  = document.getElementById('lightboxNext');
+  const prevBtn = document.getElementById('lightboxPrev');
+  const nextBtn = document.getElementById('lightboxNext');
 
   if (!lb) return;
 
   overlay && overlay.addEventListener('click', closeLightbox);
   closeBtn && closeBtn.addEventListener('click', closeLightbox);
-  prevBtn  && prevBtn.addEventListener('click',  () => lightboxNav(-1));
-  nextBtn  && nextBtn.addEventListener('click',  () => lightboxNav(1));
+  prevBtn && prevBtn.addEventListener('click', () => lightboxNav(-1));
+  nextBtn && nextBtn.addEventListener('click', () => lightboxNav(1));
 
   document.addEventListener('keydown', e => {
     if (lb.hidden) return;
-    if (e.key === 'Escape')     closeLightbox();
-    if (e.key === 'ArrowLeft')  lightboxNav(-1);
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') lightboxNav(-1);
     if (e.key === 'ArrowRight') lightboxNav(1);
   });
 
@@ -746,7 +746,7 @@ function initLightbox() {
     if (e.key !== 'Tab' || lb.hidden) return;
     const focusable = lb.querySelectorAll('button, [tabindex="0"]');
     const first = focusable[0];
-    const last  = focusable[focusable.length - 1];
+    const last = focusable[focusable.length - 1];
     if (e.shiftKey) {
       if (document.activeElement === first) { e.preventDefault(); last.focus(); }
     } else {
@@ -814,10 +814,10 @@ function initHomepage() {
 }
 
 /* ─── Hero Slider ─────────────────────────────────────────── */
-let sliderIndex    = 0;
-let sliderTimer    = null;
-let sliderPaused   = false;
-const SLIDER_DELAY = 5000;
+let sliderIndex = 0;
+let sliderTimer = null;
+let sliderPaused = false;
+const SLIDER_DELAY = 3500;
 
 function buildSlides() {
   const slider = document.getElementById('heroSlider');
@@ -830,9 +830,9 @@ function buildSlides() {
     slide.setAttribute('role', 'group');
     slide.setAttribute('aria-label', `Slide ${i + 1} dari ${CONFIG.heroImages.length}`);
     const img = document.createElement('img');
-    img.src    = src;
-    img.alt    = `Foto villa joglo Masayu ${i + 1}`;
-    img.width  = 900;
+    img.src = src;
+    img.alt = `Foto villa joglo Masayu ${i + 1}`;
+    img.width = 900;
     img.height = 1125;
     if (i > 0) img.loading = 'lazy';
     slide.appendChild(img);
@@ -905,9 +905,9 @@ function startSliderTimer() {
 function initHeroSlider() {
   buildSlides();
 
-  const wrap     = document.querySelector('.hero-slider-wrap');
-  const prevBtn  = document.getElementById('sliderPrev');
-  const nextBtn  = document.getElementById('sliderNext');
+  const wrap = document.querySelector('.hero-slider-wrap');
+  const prevBtn = document.getElementById('sliderPrev');
+  const nextBtn = document.getElementById('sliderNext');
 
   if (!wrap) return;
 
@@ -947,7 +947,7 @@ function renderVillaList() {
 
   VILLAS.forEach((villa, i) => {
     const row = document.createElement('a');
-    row.href      = `villa.html?id=${villa.slug}`;
+    row.href = `villa.html?id=${villa.slug}`;
     row.className = 'villa-row reveal' + (i > 0 ? ` reveal-delay-${Math.min(i, 3)}` : '');
     row.setAttribute('role', 'listitem');
     row.setAttribute('aria-label', `${villa.name} — ${villa.meta[currentLang]}`);
@@ -987,12 +987,12 @@ function initVillaHover() {
   stickyInner.innerHTML = '';
   VILLAS.forEach((villa, i) => {
     const img = document.createElement('img');
-    img.src       = villa.photos[0];
-    img.alt       = villa.name;
+    img.src = villa.photos[0];
+    img.alt = villa.name;
     img.className = 'sticky-photo-img' + (i === 0 ? ' is-active' : '');
-    img.width     = 800;
-    img.height    = 1000;
-    img.loading   = 'lazy';
+    img.width = 800;
+    img.height = 1000;
+    img.loading = 'lazy';
     stickyInner.appendChild(img);
   });
 
@@ -1032,9 +1032,9 @@ function renderGallery() {
     div.dataset.galleryIndex = i;
 
     const img = document.createElement('img');
-    img.src    = item.src;
-    img.alt    = item.alt;
-    img.width  = 800;
+    img.src = item.src;
+    img.alt = item.alt;
+    img.width = 800;
     img.height = 800;
     if (i > 3) img.loading = 'lazy';
 
@@ -1109,7 +1109,7 @@ function renderVillaDetail() {
   const container = document.getElementById('villaDetailContent');
   if (!container) return;
 
-  const id    = getVillaIdFromURL();
+  const id = getVillaIdFromURL();
   const villa = VILLAS.find(v => v.id === id || v.slug === id);
 
   if (!villa) {
@@ -1276,6 +1276,32 @@ function initVillaPhotoInteractions(villa) {
         openLightbox(currentVillaPhotos, currentMainPhotoIndex);
       }
     });
+
+    // Touch swipe gesture for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+    mainWrap.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    mainWrap.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      const diff = touchStartX - touchEndX;
+      const total = villa.photos.length;
+      if (Math.abs(diff) > 40) {
+        if (diff > 0) {
+          // Swipe left -> next photo
+          const nextIdx = (currentMainPhotoIndex + 1) % total;
+          setMainPhoto(nextIdx, villa);
+          thumbsContainer && thumbsContainer.querySelectorAll('.villa-thumb').forEach((t, i) => t.classList.toggle('is-active', i === nextIdx));
+        } else {
+          // Swipe right -> prev photo
+          const prevIdx = (currentMainPhotoIndex - 1 + total) % total;
+          setMainPhoto(prevIdx, villa);
+          thumbsContainer && thumbsContainer.querySelectorAll('.villa-thumb').forEach((t, i) => t.classList.toggle('is-active', i === prevIdx));
+        }
+      }
+    }, { passive: true });
   }
 }
 
